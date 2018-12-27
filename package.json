@@ -1,13 +1,14 @@
 {
   "name": "moongarm-scheduling",
   "version": "1.0.0",
-  "description": "Node Task Schedule Like Laravel Schedule",
+  "description": "NodeJS task scheduling with crontab. Inspired by Laravel task scheduling",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cronjob",
+    "crontab",
     "scheduling"
   ],
   "homepage": "https://github.com/LordAur/moongarm-scheduling",
