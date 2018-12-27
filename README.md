@@ -118,3 +118,18 @@ scheduled
 | ```.fridays()``` | Limit the task to Friday |
 | ```.saturdays()``` | Limit the task to Saturday |
 | ```.between('12:00', '14:00')``` | Limit the task to run between start and end times |
+
+# Timezones
+Using the ```timezone```, you may specify that a scheduled task's time should be interpreted within a given timezone:
+
+```javascript
+const scheduled = require('moongarm-scheduling');
+
+scheduled
+  .put('http://127.0.0.1/call/task')
+  .weekly()
+  .timezone('Asia/Jakarta')
+  .run((response) => {
+    console.log(response);
+  });
+```
