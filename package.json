@@ -1,0 +1,41 @@
+{
+  "name": "moongarm-scheduling",
+  "version": "1.0.0",
+  "description": "Node Task Schedule Like Laravel Schedule",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cronjob",
+    "scheduling"
+  ],
+  "homepage": "https://github.com/LordAur/moongarm-scheduling",
+  "bugs": {
+    "url": "https://github.com/LordAur/moongarm-scheduling/issues",
+    "email": "yudha.webdev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LordAur/moongarm-scheduling"
+  },
+  "authors": [
+    {
+      "name": "Yudha Pratama Wicaksana",
+      "email": "yudha.webdev@gmail.com",
+      "homepage": "https://yudhapratama.com",
+      "github": "https://github.com/LordAur",
+      "twitter": "https://twitter.com/LordAur"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}
